@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#user{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    justify-content: center;
+}
+#computer{
+    display: flex;
+    flex-direction: row;
+}
+#gamebody{
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    align-items: center;
+    justify-content: center;
+    margin:0px  200px;
+    height: 600px;
+    width: 900px;
+}
+img{
+    height: 80px;
+    width: auto;
+    box-sizing: 5px border-box;
+    border: solid bisque;
+   border-radius: 5px;
+     
+}
+.boxhover{
+    border: 5px solid bisque;
+    border-radius: 5px;
+}
+.boxhover:hover{
+   border: 5px solid black;
+   border-radius: 5px;
+}
+.box{
+    margin: 20px;
+    padding: 30px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#play,#playagain{
+    height: 20px;
+    width: 120px;
+    background-color: greenyellow;
+}
+.title,.score{
+    align-items: center;
+    font-size: 30px;
+    color: green;
+    font-weight: 400;
+}
+.titlebox{
+    border: 5px solid brown;
+    border-radius: 10px;
+    padding: 5px;
+} 
+ 
+
+/* .box01{
+    margin: 0px 10px 0px 10px;
+} */
+
